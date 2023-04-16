@@ -18,8 +18,8 @@ function Calculator() {
 
 
   return (
-    <div className={` bg-skin-fill  h-auto p-12 w-auto`}>
-        <div className="            theme-controller flex justify-between items-center ">
+    <div className={` bg-skin-fill  h-auto p-8 w-auto `}>
+        <div className="            theme-controller flex justify-between items-center mb-1">
             <div className="logo font-extrabold text-2xl text-skin-odd ">Calc</div> 
             <div className="flex items-center gap-5">
                 <div className="uppercase text-2xl text-skin-odd">theme</div>
