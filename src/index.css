@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+
+  :root{
+    --color-text-base: hsl(221, 14%, 31%);
+    --color-text-muted: hsl(0, 0%, 100%);
+    --color-text-odd: #ffffff;
+    --color-text-equal:#ffffff;
+
+    --color-main-background:hsl(222, 26%, 31%);
+    --toggle-background: hsl(223, 31%, 20%);
+    --keypad-background:hsl(223, 31%, 20%);
+    --screen-background: hsl(224, 36%, 15%);
+
+    --key-del-select:hsl(225, 21%, 49%);
+    --key-del-select-shadow:hsl(224, 28%, 35%);
+    --key-equal-toggle:hsl(6, 63%, 50%);
+    --key-equal-toggle-shadow:hsl(6, 70%, 34%);
+    --key-bg:hsl(30, 25%, 89%);
+    --key-shadow:hsl(28, 16%, 65%);    
+
+  }
+
+  .theme-2{
+    
+    --color-text-base: hsl(60, 10%, 19%);
+    --color-text-muted: hsl(0, 0%, 100%);
+    --color-text-odd: hsl(60, 10%, 19%);
+    --color-text-equal:#ffffff;
+
+    --color-main-background:hsl(0, 0%, 90%);
+    --toggle-background: hsl(0, 5%, 81%);
+    --keypad-background:hsl(0, 5%, 81%);
+    --screen-background: hsl(0, 0%, 93%);
+
+    --key-del-select:hsl(185, 42%, 37%);
+    --key-del-select-shadow:hsl(185, 58%, 25%);
+    --key-equal-toggle:hsl(25, 98%, 40%);
+    --key-equal-toggle-shadow:hsl(25, 99%, 27%);
+    --key-bg:hsl(45, 7%, 89%);
+    --key-shadow:hsl(35, 11%, 61%); 
+
+  }
+
+  .theme-3{
+
+    --color-text-base: hsl(52, 100%, 62%);
+    --color-text-odd: hsl(52, 100%, 62%);
+    --color-text-muted:hsl(0, 0%, 100%);
+    --color-text-equal:hsl(55, 10%, 10%,);
+
+    --color-main-background:hsl(268, 75%, 9%);
+    --toggle-background: hsl(268, 71%, 12%);
+    --keypad-background:hsl(268, 71%, 12%);
+    --screen-background: hsl(268, 71%, 12%);
+
+    --key-del-select:hsl(281, 89%, 26%);
+    --key-del-select-shadow:hsl(285, 91%, 52%);
+    --key-equal-toggle:hsl(176, 100%, 44%);
+    --key-equal-toggle-shadow:hsl(177, 92%, 70%); 
+    --key-bg:hsl(268, 47%, 21%);
+    --key-shadow:hsl(290, 70%, 36%);
+
+  }
+
+}
+
+
+
